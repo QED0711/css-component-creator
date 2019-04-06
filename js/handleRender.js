@@ -4,8 +4,8 @@ import {setComponentHTML, setComponentCSS} from "./setComponentHTML";
 
 const handleRender = () => {
     const userInput = document.getElementById('user-input');
-    const html = userInput.children[2]
-    const css = userInput.children[6]
+    const html = userInput.children[4]
+    const css = userInput.children[8]
     
     html.onkeyup = (e) => {
         setComponentHTML(html.value)

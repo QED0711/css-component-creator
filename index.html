@@ -17,6 +17,8 @@
         <h4>Created by Quinn Dizon</h4>
     </header>
 
+    
+
     <div class="project-management">
 
         <select id="current-project">
@@ -31,25 +33,30 @@
         
     </div>
 
+    <div id="component-create-app-container">
 
-    <form id="user-input">
-        <label>HTML</label>
-        <br>
-        <textarea id="user-html"></textarea>
-        <br>
-        <label>CSS</label>
-        <br>
-        <textarea id="user-css"></textarea>
-        <br>
-
-        <input type="submit" value="Save">
-
-    </form>
-    <!-- 
-        The component-display div is where all actual in question component will be rendered with the correct css
-     -->
-     <style id="component-css"></style>
-    <div id="component-html"></div>
+        <form id="user-input">
+            <input type="submit" value="Save">
+            <br>
+            <label>HTML</label>
+            <br>
+            <textarea id="user-html"></textarea>
+            <br>
+            <label>CSS</label>
+            <br>
+            <textarea id="user-css"></textarea>
+            <br>
+    
+    
+        </form>
+        <!-- 
+            The component-display div is where all actual in question component will be rendered with the correct css
+         -->
+         <style id="component-css"></style>
+        <div id="component-html-container">
+            <div id="component-html"></div>
+        </div>
+    </div>
         
     <script>
         require("./render.js")
