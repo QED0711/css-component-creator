@@ -1,0 +1,23 @@
+{
+  "name": "css-component-maker",
+  "version": "1.0.0",
+  "description": "A css component creation and management tool toolkit built in electron",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [
+    "css",
+    "toolkit"
+  ],
+  "author": "Quinn Dizon",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^4.1.4",
+    "electron-prebuilt-compile": "^4.0.0"
+  },
+  "dependencies": {
+    "shelljs": "^0.8.3"
+  }
+}

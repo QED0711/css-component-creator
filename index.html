@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    
+    
+    <title>CSS Component Creator</title>
+</head>
+<body>
+    
+
+    <header>
+        <h1>CSS Component Creator</h1>
+        <h4>Created by Quinn Dizon</h4>
+    </header>
+
+    <div class="project-management">
+
+        <select id="current-project">
+            <option>Select a Project</option>
+
+        </select>
+        <hr>
+        <form id="new-project">
+            <input type="text" placeholder="Project Name" required>
+            <input type="submit" value="New Project" >
+        </form>
+        
+    </div>
+
+
+    <form id="user-input">
+        <label>HTML</label>
+        <br>
+        <textarea id="user-html"></textarea>
+        <br>
+        <label>CSS</label>
+        <br>
+        <textarea id="user-css"></textarea>
+        <br>
+
+        <input type="submit" value="Render Component">
+
+    </form>
+    <!-- 
+        The component-display div is where all actual in question component will be rendered with the correct css
+     -->
+    <div id="component-display"></div>
+        
+    <script>
+        require("./render.js")
+    </script>
+</body>
+</html>
