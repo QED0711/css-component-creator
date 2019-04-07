@@ -1,9 +1,12 @@
+import populateComponentList from "./populateComponentList";
 
 const handleProjectChange = () => {
-    const projectForm = document.getElementById("current-project");
-    projectForm.onchange = (e) => {
+    const currentProject = document.getElementById("current-project");
+    currentProject.onchange = (e) => {
         e.preventDefault();
-        console.log("EXCERPTED")
+        const projectName = e.target.value
+        console.log(projectName)
+        populateComponentList();
     }
 }
 

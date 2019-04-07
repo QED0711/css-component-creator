@@ -1,4 +1,4 @@
-import {setComponentHTML, setComponentCSS} from "./setComponentHTML";
+import {setComponentHTML, setComponentCSS} from "./setComponentDOM";
 
 
 
