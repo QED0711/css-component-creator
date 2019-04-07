@@ -1,8 +1,10 @@
 #component-create-app-container{
     display: grid;
     grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto auto;
     grid-template-areas: 
-    'input component';
+    "current-component current-component"
+    "user-input component-display";
     grid-gap: 2.5em;
 
     background-image: url("./images/mosaic.png");
@@ -13,9 +15,17 @@
     border-radius: 8px;
 }
 
-#user-input{
+#current-component{
+    grid-area: current-component
+}
+
+#user-input, #current-component{
     text-align: left;
     color: white;
+}
+
+#current-component select{
+    color: black;
 }
 
 #user-html, #user-css{
@@ -31,6 +41,7 @@
 }
 
 #component-html-container{
+    grid-area: component-display;
     background-color: white;
     padding: 1em;
     border-top-right-radius: 10px;
