@@ -5,7 +5,6 @@ const handleProjectChange = () => {
     currentProject.onchange = (e) => {
         e.preventDefault();
         const projectName = e.target.value
-        console.log(projectName)
         populateComponentList();
     }
 }
