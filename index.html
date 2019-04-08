@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <script type="text/javascript" src="codeMirror/codemirror/lib/codemirror.js"></script>
+    <script type="text/javascript" src="codeMirror/codemirror/lib/"></script>
+    <link rel="stylesheet" href="./codeMirror/codemirror/lib/codemirror.css">
     <link rel="stylesheet" href="main.css">
     
     <title>CSS Component Creator</title>
@@ -13,7 +18,7 @@
     
 
     <header>
-        <h1 id="css-creator-app-title">CSS Component Creator</h1>
+        <h1 id="css-creator-app-title">CSS Component Manager</h1>
         <h4 id="css-creator-app-author">Created by Quinn Dizon</h4>
         <hr>
     </header>
@@ -78,6 +83,14 @@
         </div>
     </div>
         
+    <script>
+        const htmlEditor = document.getElementById("user-html");
+        CodeMirror.fromTextArea(htmlEditor, {lineNumbers: true, mode: "HTML"})
+        setInterval(() => {
+            console.log(document.getElementById("user-html").value)
+        }, 1000)
+    </script>
+
     <script>
         require("./render.js")
     </script>
