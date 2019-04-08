@@ -1,20 +1,27 @@
 body{
     background-image: url("./images/white-tile.png");
+    font-family: 'Courier New', Courier, monospace;
 }
+
+#css-creator-app-title{
+    margin: 0.5em 0 0;
+}
+#css-creator-app-author{
+    margin: 0.5em 0;
+}
+
 
 #component-create-app-container{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: auto auto;
+    grid-template-rows: auto;
     grid-template-areas: 
-    "current-component current-component"
     "user-input component-display";
     grid-gap: 2.5em;
 
 
     padding: 1em;
 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 8px;
 }
 
