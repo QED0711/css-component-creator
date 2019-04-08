@@ -14,7 +14,7 @@ const handleNewProject = () => {
 
     newProject.onsubmit = (e) => {
         e.preventDefault();
-        const name = e.target.children[0];
+        const name = e.target.children[3];
         const parsedName = name.value.replace(" ", "-")
         const dir = `./projects/${parsedName}`;
         

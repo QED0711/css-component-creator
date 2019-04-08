@@ -21,12 +21,14 @@
 
     <div class="project-management">
 
-        <select id="current-project">
-            <option>Select a Project</option>
-
-        </select>
-        <hr>
         <form id="new-project">
+            <label>Choose Existing Project</label>
+            <select id="current-project">
+                <option>Select a Project</option>
+    
+            </select>
+            |
+            <label>New Project</label>
             <input type="text" placeholder="Project Name" required>
             <input type="submit" value="New Project" >
         </form>
@@ -36,12 +38,12 @@
     <div id="component-create-app-container">
 
         <form id="current-component">
-            <label>Component</label>
+            <label>Existing Component</label>
             <select id="component-list" style="width: 10em;"></select>
-
+            |
             <label>New Component</label>
             <input type="text" >
-            <input type="submit" value="Create New Component" >
+            <input type="submit" value="Create New Component" required>
         </form>
 
         <form id="user-input">
@@ -61,7 +63,16 @@
          -->
          <style id="component-css"></style>
         <div id="component-html-container">
-            <div id="component-html"></div>
+            <div id="component-window-banner">
+                <div id="fake-buttons-container">
+                    <div id="fake-button-1"></div>
+                    <div id="fake-button-2"></div>
+                    <div id="fake-button-3"></div>
+                </div>
+            </div>
+            <div id="component-html">
+                
+            </div>
         </div>
     </div>
         
