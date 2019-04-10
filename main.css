@@ -47,6 +47,13 @@ body{
     box-shadow: 2px 2px 10px rgb(94, 94, 94) inset;
     border-radius: 8px;
     background-color: rgb(34, 34, 34);
+}
+
+#user-html{
+    color: #e6ba41;
+}
+
+#user-css{
     color: #60CDEE;
 }
 

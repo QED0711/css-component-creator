@@ -19,11 +19,14 @@ const addTextAreaFunctionality = () => {
         ta.onkeydown = (e) => {
             if(e.shiftKey){
                 changeKeyboardFunctionality(e, 57, "()") // close praentheses
-                changeKeyboardFunctionality(e, 219, "{}") // close praentheses
+                changeKeyboardFunctionality(e, 219, "{}") // close braces
                 changeKeyboardFunctionality(e, 188, "<>") // Tag braces
+                changeKeyboardFunctionality(e, 222, '""') // Close Double Quotes
             } else {
                 changeKeyboardFunctionality(e, 9, "\t"); // tab functionality
                 changeKeyboardFunctionality(e, 219, "[]"); // close square brackets                
+                changeKeyboardFunctionality(e, 222, "''"); // close single quotes                
+
             }
         }
     }
