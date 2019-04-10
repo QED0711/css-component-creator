@@ -4,6 +4,7 @@ import populatProjects from './js/populateProjects';
 import handleRender from './js/handleRender'
 import handleComponentCreate from "./js/handleComponentCreate";
 import handleComponentChange from "./js/handleComponentChange";
+import addTextAreaFunctionality from "./js/textAreaKeyboardCommands";
 
 populatProjects();
 
@@ -12,3 +13,4 @@ handleNewProject();
 handleRender();
 handleComponentCreate();
 handleComponentChange();
+addTextAreaFunctionality();
