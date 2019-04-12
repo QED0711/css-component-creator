@@ -1,0 +1,32 @@
+.icon-container{
+	width: 15em;
+	margin: 1em auto;
+	padding: 5em;
+
+	border: 2px dotted black;
+}
+
+.laptop-screen-frame{
+	height: 7em;
+	width: 10em;
+	margin: 0 auto;
+	background-color: #616161;
+	padding: .5em .4em;
+	border-radius: 8px
+}
+
+.image-screen{
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	border-radius: 2px;
+}
+
+.laptop-bass{
+	height: 0.5em;
+	width: 13em;
+	margin: 0 auto;
+	background-color: #616161;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
