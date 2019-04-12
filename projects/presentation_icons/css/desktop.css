@@ -1,0 +1,44 @@
+.icon-container{
+	width: 15em;
+	margin: 1em auto;
+	padding: 5em;
+
+	border: 2px dotted black;
+}
+
+.desktop-screen-frame{
+	width: 15em;
+	height: 10em;
+	margin: 0 auto;
+	background-color: #616161;
+
+	border-radius: 4px;
+	padding-top: 5px
+
+}
+
+.image-screen{
+	width: calc(100% - 10px);
+	height: calc(100% - 5px);
+	margin: 0 auto;
+	background-color: white;
+	border-radius: 2px;
+}
+
+.desktop-bass-stand{
+	height: 2em;
+	width: 1em;
+	background-color: #616161;
+	margin: 0 auto;
+}
+
+.desktop-bass{
+	width: 6em;
+	height: 0.5em;
+	background-color: #616161;
+	margin: 0 auto;
+	
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+}
+
